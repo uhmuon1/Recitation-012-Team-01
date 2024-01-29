@@ -1,0 +1,33 @@
+(base) tommycollier@econ2-193-61-dhcp Recitation-012-Team-01 % git merge main
+Auto-merging main.cpp
+CONFLICT (add/add): Merge conflict in main.cpp
+Automatic merge failed; fix conflicts and then commit the result.
+(base) tommycollier@econ2-193-61-dhcp Recitation-012-Team-01 % git add main.cpp
+(base) tommycollier@econ2-193-61-dhcp Recitation-012-Team-01 % cit commit -m "Merging changes with the ret
+urn value 1"
+zsh: command not found: cit
+(base) tommycollier@econ2-193-61-dhcp Recitation-012-Team-01 % git commit -m "Merging changes with the return value 1"
+[Tom d85c4f8] Merging changes with the return value 1
+ Committer: Tommy Collier <tommycollier@econ2-193-61-dhcp.int.colorado.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+(base) tommycollier@econ2-193-61-dhcp Recitation-012-Team-01 % git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 372 bytes | 372.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:uhmuon1/Recitation-012-Team-01.git
+   dfe336f..d85c4f8  Tom -> Tom
+(base) tommycollier@econ2-193-61-dhcp Recitation-012-Team-01 % 
